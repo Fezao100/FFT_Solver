@@ -9,7 +9,8 @@ n_amostras = 32768 #Número de amostras para o calculo do FFT que queremos (pode
 
 t = np.linspace(-10,10,n_amostras)
 
-a1 = -2;
+#Limites do sinal
+a1 = -2; 
 a2 = 2;
 i=0;
 

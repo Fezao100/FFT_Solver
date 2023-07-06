@@ -5,10 +5,10 @@ from matplotlib.pyplot import figure
 
 #FUNÇÃO QUADRADA
 n_amostras = 1024
-t = np.linspace(0, 1, 1024, endpoint=False)
-y=np.zeros(n_amostras)
+t = np.linspace(0, 1, 1024, endpoint=False) #Pulsos por segundo
+y=np.zeros(n_amostras) #Cria matriz 
 
-y = signal.square(4 * np.pi * 5 * t)
+y = signal.square(4 * np.pi * 5 * t) #Período da função
 print(y)
 np.savetxt('sinaldeentrada.txt',y)
 

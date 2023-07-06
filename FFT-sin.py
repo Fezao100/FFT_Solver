@@ -13,9 +13,9 @@ frequencia_3 = 200
 ampl_1 = 1
 ampl_2 = 2
 ampl_3 = 4
-sen1 = ampl_1*np.sin(2*np.pi*frequencia_1*t) #Cria sinal 5 Hz.
+sen1 = ampl_1*np.sin(2*np.pi*frequencia_1*t) #Cria sinal 15 Hz.
 sen2= ampl_2*np.sin(2*np.pi*frequencia_2*t) #Cria sinal de 50 Hz.
-sen3 = ampl_3*np.sin(2*np.pi*frequencia_3*t) #Cria sinal de 250 Hz.
+sen3 = ampl_3*np.sin(2*np.pi*frequencia_3*t) #Cria sinal de 200 Hz.
 sen3_frequencias = sen1 + sen2+ sen3 #Cria sinal contendo as 3 frequenciauências.
   
 np.savetxt('sinaldeentrada.txt', sen3_frequencias)
